@@ -6,7 +6,7 @@ import React from 'react'
   return (
     <>
     <h1>Hey!{props.name}</h1>
-    <h2>Welcome To Newton School</h2>
+    
     </>
   )
 }
