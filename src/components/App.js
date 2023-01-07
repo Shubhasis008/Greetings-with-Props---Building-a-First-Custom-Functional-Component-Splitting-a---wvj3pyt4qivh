@@ -8,7 +8,7 @@ const App = () => {
     <>
     
     <Welcome name={myName}/>
-    <h2>Welcome To Newton School</h2>
+    
     </>
   )
 }
