@@ -1,14 +1,15 @@
 // write code for Welcome component here
-import React from 'react'
+import React from "react";
 
- const Welcome = (props) => {
-    
-  return (
-    <div>
-    <h1>Hey!{props.name}</h1>
-    <h2>Welcome To Newton School</h2>
-    </div>
-  )
-}
+const Welcome = ({name}) => {
+    let sayHi = `Hey ${name}!`;
+    let greet = `Welcome to Newton School`;
+    return(
+        <div>
+            <h1>{sayHi}</h1>
+            <h2>{greet}</h2>
+        </div>
+    );
+};
 
-export default Welcome
+export default Welcome;
